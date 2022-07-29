@@ -55,13 +55,7 @@ const socialMediaLinks = {
       },
     },
 
-    {
-      skillName: "postgres",
-      classname: "logos:postgresql",
-      style: {
-        backgroundColor: "transparent",
-      },
-    },
+   
     {
       skillName: "tensorflow",
       classname: "logos-tensorflow",
@@ -77,13 +71,7 @@ const socialMediaLinks = {
         color: "#D00000",
       },
     },
-    {
-      skillName: "flask",
-      classname: "simple-icons:flask",
-      style: {
-        backgroundColor: "transparent",
-      },
-    },
+
   ],
 };
 
@@ -93,10 +81,10 @@ const workExperiences = {
   viewExperiences: false, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
+      role: "Graduate Research Assistant",
+      company: "University of Michigan-Dearborn",
+      //companylogo: require("./assets/images/facebookLogo.png"),
+      date: "September 2019 – April 2022",
       desc:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
@@ -105,18 +93,18 @@ const workExperiences = {
       ],
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
+      role: "Visiting Research Scholar",
+      company: "ISI, University of Southern California",
+      //companylogo: require("./assets/images/quoraLogo.png"),
+      date: "Summer 2021",
       desc:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
+      role: "Graduate Student Instructot",
+      company: "University of Michigan-Dearborn",
+      //companylogo: require("./assets/images/airbnbLogo.png"),
+      date: "September 2019 – April 2022",
       desc:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
@@ -133,64 +121,7 @@ const openSource = {
 
 // Your certifications
 
-const certifications = {
-  certifications: [
-    {
-      title: "Selenium",
-      subtitle: "- Vskills",
-      logo_path: "vskills-logo.png",
-      certificate_link:
-        "https://www.vskills.in/certification/40215-certified-selenium-professional-bharat-babu-kammakatla",
-      alt_name: "Vskills",
-      color_code: "#F6EAEA",
-    },
-    {
-      title: "Cloud Admin & Automation",
-      subtitle: "- Experitest",
-      logo_path: "seetest-logo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/1qhh1ZUBB2VPrOaT6bNgiJ5Y2sHmCjvMg/view?usp=drivesdk",
-      alt_name: "Experitest",
-      color_code: "#F0FFDD",
-    },
-    {
-      title: "Python",
-      subtitle: "- Jose Portilla",
-      logo_path: "pierian-data-logo.png",
-      certificate_link:
-        "https://www.udemy.com/certificate/UC-a80d6e7c-e753-421d-bcee-5a7bc1769f28/",
-      alt_name: "Pierian-Data",
-      color_code: "#FEF6E6",
-    },
-    {
-      title: "Selenium Python",
-      subtitle: "- Rahul Shetty",
-      logo_path: "rahulshettyacademy-logo.png",
-      certificate_link:
-        "https://www.udemy.com/certificate/UC-e4b66abd-18c6-4bfa-9132-ab22d2bf7ef7/",
-      alt_name: "RahulShettyAcademy",
-      color_code: "#FDE9EA",
-    },
-    {
-      title: "Data Science",
-      subtitle: "- IBM",
-      logo_path: "ibm_logo.png",
-      certificate_link:
-        "https://coursera.org/share/893f2210f39f5a60d0463b19b469b808",
-      alt_name: "IBM",
-      color_code: "#E3F1FA",
-    },
-    {
-      title: "ML and DS",
-      subtitle: "- Andrei Neagoie",
-      logo_path: "zero-to-mastery.png",
-      certificate_link:
-        "https://www.udemy.com/certificate/UC-fd118b7d-7436-442c-a7f8-5077c432d596/",
-      alt_name: "Zero To Mastery",
-      color_code: "#FFFDDD",
-    },
-  ],
-};
+
 
 // Blogs Section
 
@@ -232,11 +163,8 @@ const blogSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+852 51606863",
-  email_address: "bharatkammakatla@gmail.com",
+  title: ("Contact Me"),
+  email_address: "jarin122147@gmail.com",
 };
 
 export {
