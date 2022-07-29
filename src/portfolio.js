@@ -5,43 +5,39 @@ import emoji from "react-easy-emoji";
 // Your Summary And Greeting Section
 
 const greeting = {
-  username: "Bharat Kammakatla",
-  title: "Hi all, I'm Bharat",
-  subTitle: emoji(
-    "Front End Developer 👨‍💻 | Test Automation Engineer 🤖 | Tech Writer ✍️ "
+  username: "Ismat Jarin",
+  title: "Ismat Jarin",
+  subTitle: (
+    "Graduate Student|Graduate Research Assistant"
   ),
-  resumeLink:
-    "https://drive.google.com/file/d/1gsPhoU4Dg-bFSlf3K-SFrKHO0XTBpS0i/view?usp=sharing",
+  //resumeLink:
+    //"https://drive.google.com/file/d/1gsPhoU4Dg-bFSlf3K-SFrKHO0XTBpS0i/view?usp=sharing",
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
-  github: "https://github.com/bharatkammakatla",
-  linkedin: "https://www.linkedin.com/in/bharatkammakatla",
-  gmail: "bharatkammakatla@gmail.com",
-  facebook: "https://www.facebook.com/bharat.kammakatla",
-  twitter: "https://twitter.com/Bharat__K",
+  github: "https://github.com/ijarin",
+  //linkedin: "https://www.linkedin.com/in/bharatkammakatla",
+  Google-Scholar: "https://scholar.google.com/citations?user=PHYu_7YAAAAJ&hl=en",
+  //facebook: "https://www.facebook.com/bharat.kammakatla",
+  //twitter: "https://twitter.com/Bharat__K",
 };
 
 // Your Skills Section
 
-const skillsSection = {
-  title: "What i do",
-  subTitle:
-    "HANDLING ALL TEST AUTOMATION ACTIVITIES AND EXPLORING DATA SCIENCE",
-  skills: [
-    emoji(
-      "⚡ Designing and developing Test Automation frameworks using Python and Java"
-    ),
-    emoji("⚡ End to End automation executions"),
-    emoji(
-      "⚡ Working on test automation tools like Selenium, Appium, UFT, SoapUI, AutoIT, Katalon Studio, Seetest Mobile Cloud administration, etc"
-    ),
-    emoji(
-      "⚡ Building predictive models to extract insights and make decisions out of data"
-    ),
-  ],
+//const skillsSection = {
+  //title: "What i do",
+  //subTitle:
+   // "HANDLING ALL TEST AUTOMATION ACTIVITIES AND EXPLORING DATA SCIENCE",
+  //skills: [
+    //emoji(
+     // "⚡ Designing and developing Test Automation frameworks using Python and Java"
+    //),
+    //emoji("⚡ End to End automation executions"),
+   // emoji(
+   //   "⚡ Working on test automation tools like Selenium, Appium, UFT, SoapUI, AutoIT, Katalon Studio, Seetest Mobile Cloud administration, etc),
+    //emoji  "⚡ Building predictive models to extract insights and make decisions out of data"), ],
 
   softwareSkills: [
     {
@@ -58,34 +54,7 @@ const skillsSection = {
         backgroundColor: "transparent",
       },
     },
-    {
-      skillName: "reactJS",
-      classname: "simple-icons:react",
-      style: {
-        color: "#61DAFB",
-      },
-    },
-    {
-      skillName: "maven",
-      classname: "vscode-icons:file-type-maven",
-      style: {
-        backgroundColor: "transparent",
-      },
-    },
-    {
-      skillName: "git",
-      classname: "logos:git-icon",
-      style: {
-        backgroundColor: "transparent",
-      },
-    },
-    {
-      skillName: "jenkins",
-      classname: "vscode-icons:file-type-jenkins",
-      style: {
-        backgroundColor: "transparent",
-      },
-    },
+
     {
       skillName: "postgres",
       classname: "logos:postgresql",
